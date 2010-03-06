@@ -1,0 +1,54 @@
+div#mine_sweeper {
+	margin: 0 auto;
+}
+p#counters {
+	text-align: center;
+}
+p#counters span.label {
+	font-weight: bold;
+}
+p#counters span.count {
+}
+p#counters span {
+	padding: 0 5px;
+}
+div.square {
+	float:left;
+	border: 1px solid #DDD;
+	background-color: #888;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin:0;
+	text-align: center;
+	vertical-align: middle;
+}
+div.square.cleared {
+	background-color: #BBB;
+}
+div.square.flagged {
+	background-color: yellow;
+}
+
+form#new_mine_sweeper {
+	width: 20em;
+	margin: 10ex auto;
+}
+form#new_mine_sweeper label {
+	width: 10em;
+	clear:both;
+	float:left;
+}
+form#new_mine_sweeper select {
+	float:left;
+	padding: 2px;
+}
+form#new_mine_sweeper input {
+	clear:both;
+	float:left;
+}
+#mine_sweeper_notice {
+	float:left;
+	font-size: 10pt;
+	margin-top: 15ex;
+}
