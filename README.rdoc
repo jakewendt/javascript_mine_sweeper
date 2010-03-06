@@ -1,0 +1,7 @@
+= Mine Sweeper
+
+A javascript version of the popular game.
+
+== Thanks to ...
+
+
